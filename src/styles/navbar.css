@@ -1,0 +1,93 @@
+
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;  
+    height: 150px;       
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+
+  .navbar:hover {
+    background-color: #333; 
+  }
+  
+  
+  .logoNavbar img {
+    width: 160px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+ 
+  .logoNavbar img:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .infoNavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+  }
+  
+  
+  .ulNav {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .linkNav {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #ddd; 
+    padding: 5px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    border-radius: 5px;
+  }
+  
+ 
+  .linkNav:hover {
+    color: #FF6F61; 
+    transform: translateY(-2px); 
+  }
+  
+  
+  .cartNavbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .cartNavbar a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ddd;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: 2px solid transparent;
+  }
+  
+  
+  .cartNavbar a:hover {
+    background-color: #ece7e6;
+    color: #fff;
+    transform: scale(1.1); 
+    border: 2px solid #fff; 
+  }
+  

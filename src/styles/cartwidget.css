@@ -1,0 +1,29 @@
+
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    cursor: pointer;
+  }
+  
+  .cart img {
+    width: 30px; 
+    height: auto;
+  }
+  
+  .quantityCart {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #e57c0f; 
+    color: white;
+    border-radius: 50%;
+    padding: 3px 7px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
